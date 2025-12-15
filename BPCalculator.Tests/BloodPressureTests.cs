@@ -29,7 +29,7 @@ namespace BPCalculator.Tests
 
         // Pre-High Blood Pressure tests
         [Theory]
-        [InlineData(100, 20)]  // Systolic at pre-high threshold [InlineData(120, 70)] 
+        [InlineData(120, 70)]  // Systolic at pre-high threshold [InlineData(120, 70)] 
         [InlineData(139, 75)]  // Systolic at upper pre-high
         [InlineData(110, 80)]  // Diastolic at pre-high threshold
         [InlineData(115, 89)]  // Diastolic at upper pre-high
